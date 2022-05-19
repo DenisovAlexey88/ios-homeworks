@@ -12,7 +12,11 @@
 		410633DF282E9F770092FC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410633DE282E9F770092FC62 /* ViewController.swift */; };
 		410633E2282E9F770092FC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410633E0282E9F770092FC62 /* Main.storyboard */; };
 		410633E4282E9F7A0092FC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410633E3282E9F7A0092FC62 /* Assets.xcassets */; };
-		410633E7282E9F7A0092FC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410633E5282E9F7A0092FC62 /* LaunchScreen.storyboard */; };
+		410633EF282E9FA30092FC62 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410633EE282E9FA30092FC62 /* ProfileView.swift */; };
+		410633F1282EA0020092FC62 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410633F0282EA0020092FC62 /* ProfileView.xib */; };
+		4123E841282EA6360002A16E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4123E840282EA6360002A16E /* ProfileViewController.swift */; };
+		41385C17282EE87900F237E5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41385C16282EE87900F237E5 /* Profile.storyboard */; };
+		41B0B138282F5DB500C8A41C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B0B137282F5DB500C8A41C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +26,12 @@
 		410633DE282E9F770092FC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		410633E1282E9F770092FC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410633E3282E9F7A0092FC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		410633E6282E9F7A0092FC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410633E8282E9F7A0092FC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410633EE282E9FA30092FC62 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		410633F0282EA0020092FC62 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		4123E840282EA6360002A16E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		41385C16282EE87900F237E5 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		41B0B137282F5DB500C8A41C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,16 @@
 		410633D9282E9F770092FC62 /* Netology_IB_Instruments */ = {
 			isa = PBXGroup;
 			children = (
+				410633EE282E9FA30092FC62 /* ProfileView.swift */,
+				410633F0282EA0020092FC62 /* ProfileView.xib */,
+				4123E840282EA6360002A16E /* ProfileViewController.swift */,
+				41385C16282EE87900F237E5 /* Profile.storyboard */,
+				41B0B137282F5DB500C8A41C /* Launch Screen.storyboard */,
 				410633DA282E9F770092FC62 /* AppDelegate.swift */,
 				410633DC282E9F770092FC62 /* SceneDelegate.swift */,
 				410633DE282E9F770092FC62 /* ViewController.swift */,
 				410633E0282E9F770092FC62 /* Main.storyboard */,
 				410633E3282E9F7A0092FC62 /* Assets.xcassets */,
-				410633E5282E9F7A0092FC62 /* LaunchScreen.storyboard */,
 				410633E8282E9F7A0092FC62 /* Info.plist */,
 			);
 			path = Netology_IB_Instruments;
@@ -94,7 +106,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Алексей Денисов";
 				TargetAttributes = {
 					410633D6282E9F770092FC62 = {
@@ -125,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410633E7282E9F7A0092FC62 /* LaunchScreen.storyboard in Resources */,
+				410633F1282EA0020092FC62 /* ProfileView.xib in Resources */,
+				41385C17282EE87900F237E5 /* Profile.storyboard in Resources */,
 				410633E4282E9F7A0092FC62 /* Assets.xcassets in Resources */,
+				41B0B138282F5DB500C8A41C /* Launch Screen.storyboard in Resources */,
 				410633E2282E9F770092FC62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410633EF282E9FA30092FC62 /* ProfileView.swift in Sources */,
 				410633DF282E9F770092FC62 /* ViewController.swift in Sources */,
+				4123E841282EA6360002A16E /* ProfileViewController.swift in Sources */,
 				410633DB282E9F770092FC62 /* AppDelegate.swift in Sources */,
 				410633DD282E9F770092FC62 /* SceneDelegate.swift in Sources */,
 			);
@@ -153,14 +169,6 @@
 				410633E1282E9F770092FC62 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		410633E5282E9F7A0092FC62 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410633E6282E9F7A0092FC62 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -192,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
