@@ -23,7 +23,7 @@ class PostViewController: UIViewController {
         makeBarItem()
     }
     private func makeBarItem(){
-        let barItem = UIBarButtonItem(title: "Следующий шаг", style: .plain, target:self, action: #selector(tapAction))
+        let barItem = UIBarButtonItem(title: "Далее", style: .plain, target:self, action: #selector(tapAction))
         navigationItem.rightBarButtonItem = barItem
     }
     @objc private func tapAction(){

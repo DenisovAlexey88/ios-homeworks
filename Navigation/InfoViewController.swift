@@ -17,7 +17,7 @@ class InfoViewController: UIViewController {
     private func makeButton(){
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 250, height: 50))
         button.center = view.center
-        button.setTitle("Нажмите кнопку", for: .normal)
+        button.setTitle("Назад?", for: .normal)
         button.backgroundColor = .black
         button.addTarget(self, action: #selector (tapAction), for: .touchUpInside)
         view.addSubview(button)
