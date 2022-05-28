@@ -3,7 +3,7 @@
 //  Navigation
 //
 //  Created by Алексей Денисов on 25.05.2022.
-//
+//syzr1
 
 import UIKit
 
@@ -11,7 +11,7 @@ struct Photos {
     var author: String
     var image: String
     
-    static func makeMockModel() -> [Photos] {
+    static func addImage() -> [Photos] {
         var model = [Photos]()
         model.append(Photos(author: "Иванов", image: "syzr1"))
         model.append(Photos(author: "Петров", image: "syzr2"))
