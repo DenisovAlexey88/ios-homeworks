@@ -18,6 +18,7 @@
 		4199F4EA2837E481005CEB38 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4199F4E92837E481005CEB38 /* InfoViewController.swift */; };
 		4199F4EC2837E621005CEB38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4199F4EB2837E621005CEB38 /* ProfileViewController.swift */; };
 		4199F4EF2837EBAA005CEB38 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4199F4EE2837EBAA005CEB38 /* ProfileHeaderView.swift */; };
+		41D1F2B5284E59A2006C20C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1F2B4284E59A2006C20C7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4199F4E92837E481005CEB38 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		4199F4EB2837E621005CEB38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4199F4EE2837EBAA005CEB38 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		41D1F2B4284E59A2006C20C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../Navigation/LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,9 @@
 				4199F4CF2837E070005CEB38 /* AppDelegate.swift */,
 				4199F4D12837E070005CEB38 /* SceneDelegate.swift */,
 				4199F4E32837E39B005CEB38 /* TabBarController.swift */,
-				4199F4E92837E481005CEB38 /* InfoViewController.swift */,
 				4199F4E52837E3FF005CEB38 /* FeedViewController.swift */,
 				4199F4E72837E434005CEB38 /* PostViewController.swift */,
+				4199F4E92837E481005CEB38 /* InfoViewController.swift */,
 				4199F4D32837E070005CEB38 /* ViewController.swift */,
 				4199F4D82837E076005CEB38 /* Assets.xcassets */,
 				4199F4DA2837E076005CEB38 /* LaunchScreen.storyboard */,
@@ -86,6 +88,7 @@
 			children = (
 				4199F4EE2837EBAA005CEB38 /* ProfileHeaderView.swift */,
 				4199F4EB2837E621005CEB38 /* ProfileViewController.swift */,
+				41D1F2B4284E59A2006C20C7 /* LoginViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				4199F4E62837E3FF005CEB38 /* FeedViewController.swift in Sources */,
 				4199F4E42837E39B005CEB38 /* TabBarController.swift in Sources */,
 				4199F4EC2837E621005CEB38 /* ProfileViewController.swift in Sources */,
+				41D1F2B5284E59A2006C20C7 /* LoginViewController.swift in Sources */,
 				4199F4D22837E070005CEB38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
